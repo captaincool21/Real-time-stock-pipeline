@@ -28,3 +28,12 @@ Alpaca → Kafka → Consumer → TimescaleDB → Grafana
 1. Start Docker:
 ```bash
 docker compose up -d
+
+2. Run Producer:
+python producer.py
+
+3. Run Consumer:
+python consumer.py
+
+4. Open Grafana:
+http://localhost:3000
